@@ -111,11 +111,11 @@ objects_list = Emoji_List(URL, objects)
 
 # Symbols
 URL = 'https://emojihub.herokuapp.com/api/all/category_symbols'
-symbols_list = Emoji_List(URL, objects)
+symbols_list = Emoji_List(URL, symbols)
 
 # Flags
 URL = 'https://emojihub.herokuapp.com/api/all/category_flags'
-flags_list = Emoji_List(URL, objects)
+flags_list = Emoji_List(URL, flags)
 
 
 
