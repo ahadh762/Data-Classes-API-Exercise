@@ -66,7 +66,6 @@ class flags:
     unicode: str
 
 
-
 def getJSON(url): # Function makes a get request for a URL and returns a JSON Dict
     response = requests.get(url)
     return response.json()
@@ -100,9 +99,11 @@ food_list = Emoji_List(URL, food_and_drink)
 URL = 'https://emojihub.herokuapp.com/api/all/category_travel_and_places'
 places_list = Emoji_List(URL, travel_and_places)
 
+
 # Activities
 URL = 'https://emojihub.herokuapp.com/api/all/category_activities'
 activities_list = Emoji_List(URL, activities)
+
 
 # Objects
 URL = 'https://emojihub.herokuapp.com/api/all/category_objects'
@@ -112,6 +113,7 @@ objects_list = Emoji_List(URL, objects)
 # Symbols
 URL = 'https://emojihub.herokuapp.com/api/all/category_symbols'
 symbols_list = Emoji_List(URL, symbols)
+
 
 # Flags
 URL = 'https://emojihub.herokuapp.com/api/all/category_flags'
